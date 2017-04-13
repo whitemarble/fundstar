@@ -1,0 +1,30 @@
+.logo{
+  float:left;
+  height:89px;
+}
+
+.logo img{
+    margin-top:12px
+}
+
+.ant-menu-horizontal{
+    background:transparent;
+}
+
+.ant-menu-item{
+  font-size:15px;
+  color:#fff
+}
+
+.ant-menu-item button{
+  font-size:15px;
+}
+
+.ant-menu-item .ant-btn-background-ghost{
+    color:#fff;
+    border-color:#fff
+}
+
+@media screen and (max-width: 1270px) {
+
+}

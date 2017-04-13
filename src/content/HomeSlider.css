@@ -1,0 +1,37 @@
+.ant-carousel .slick-dots{
+    bottom:90px
+}
+
+.ant-carousel .slick-dots li button {
+    width:50px;
+    height:4px
+}
+
+.ant-carousel .slick-dots li.slick-active button{
+    width:70px;
+}
+
+.slider-content{
+    color:#fff;
+    margin-top:260px;
+    margin-left:14%;
+    text-align:left
+}
+.slider-content .slider-caption{
+    max-width:480px
+}
+
+.slider-content h1{
+    font-size: 48px
+}
+
+.slider-content h2{
+    margin-top:10px;
+    font-size: 24px;
+    font-weight:400
+}
+
+.slider-content button{
+    margin-top:30px;
+    font-size:16px
+}
