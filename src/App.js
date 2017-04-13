@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { Button } from 'antd';
 import './App.css';
+import '../public/assets/css/font-awesome.css'
+import MainMenu from './header/MainMenu';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button type="primary">Button</Button>
+        <MainMenu />
       </div>
     );
   }
