@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import '../public/assets/css/font-awesome.css'
 import MainMenu from './header/MainMenu';
+
 import HomeSlider from './content/HomeSlider';
 import { Layout ,Affix} from 'antd';
 const { Header, Footer, Content } = Layout;
@@ -30,6 +31,7 @@ class App extends Component {
           <Affix className="header" onChange={affixed => this.affixscroll(affixed)}>
             <Header className="header">
               <MainMenu menuclass={this.state.menuclass} logo={this.state.logo}/>
+              
             </Header>
           </Affix>
           <Content className="content">

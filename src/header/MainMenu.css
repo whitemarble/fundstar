@@ -11,20 +11,42 @@
     background:transparent;
 }
 
-.ant-menu-item{
+.desktopmenu .ant-menu-item{
   font-size:15px;
   color:#fff
 }
 
-.ant-menu-item button{
+.desktopmenu .ant-menu-item button{
   font-size:15px;
 }
 
-.ant-menu-item .ant-btn-background-ghost{
+.desktopmenu .ant-menu-item .ant-btn-background-ghost{
     color:#fff;
     border-color:#fff
 }
 
+.desktopmenu .ant-btn-background-ghost.ant-btn-primary:focus{
+    color:#fff;
+    border-color:#fff
+}
+
+.menubutton{
+    display:none
+}
+
 @media screen and (max-width: 1270px) {
+    .desktopmenu .ant-menu-item{
+        display:none
+    }
+    .desktopmenu .menubutton{
+        display:block
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo img{
+      margin-top:17px;
+      width:220px
+    }
 
 }

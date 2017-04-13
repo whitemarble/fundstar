@@ -1,0 +1,13 @@
+.mobilemenu{
+    background:transparent;
+    visibility: hidden;
+    z-index:-1;
+    transition: background-color 0.5s;
+}
+
+.display-block{
+    background:#fff;
+    visibility: visible;
+    z-index:9;
+    transition: background-color 0.5s;
+}

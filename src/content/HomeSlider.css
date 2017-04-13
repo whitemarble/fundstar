@@ -14,7 +14,7 @@
 .slider-content{
     color:#fff;
     margin-top:260px;
-    margin-left:14%;
+    margin-left:16%;
     text-align:left
 }
 .slider-content .slider-caption{
@@ -34,4 +34,35 @@
 .slider-content button{
     margin-top:30px;
     font-size:16px
+}
+
+@media screen and (max-width: 1270px) {
+    .slider-content{
+        margin-left:12%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .slider-content{
+        margin-left:6%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .slider-content{
+        margin-left:15px;
+        margin-top:200px;
+    }
+
+    .slider-content h1{
+        font-size: 30px
+    }
+
+    .slider-content h2{
+        font-size: 16px;
+    }
+
+    .slider-content button{
+        font-size:14px
+    }
 }
