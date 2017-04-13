@@ -5,7 +5,7 @@ import { Carousel, Button } from 'antd';
 class HomeSlider extends Component {
     render() {
         return (
-            <Carousel effect="fade">
+            <Carousel effect="fade" autoplay>
                 <div style={{ height: '660px',backgroundPosition:'bottom',backgroundSize:'cover',
                     backgroundImage:'url("https://www.formaxcredit.co.uk/client/formax/i/formax-hero.jpg")' }}>
                     <div className="slider-content">
