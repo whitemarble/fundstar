@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import './HomeSlider.css';
 import { Carousel, Button } from 'antd';
+import s1 from '../../public/assets/img/s1.jpg';
+import s2 from '../../public/assets/img/s2.jpg';
+import s3 from '../../public/assets/img/s3.jpg';
+import s4 from '../../public/assets/img/s4.jpg';
 
 class HomeSlider extends Component {
     render() {
         return (
             <Carousel effect="fade" autoplay>
                 <div style={{ height: '660px',backgroundPosition:'bottom',backgroundSize:'cover',
-                    backgroundImage:'url("https://www.formaxcredit.co.uk/client/formax/i/formax-hero.jpg")' }}>
+                    backgroundImage:"url(" + s1 + ")" }}>
                     <div className="slider-content">
                         <h1 className="slider-title">GROWTH MADE SIMPLE</h1>
                         <div className="slider-caption">
@@ -17,7 +21,7 @@ class HomeSlider extends Component {
                     </div>
                 </div>
                 <div style={{ height: '660px',backgroundPosition:'bottom',backgroundSize:'cover',
-                    backgroundImage:'url("https://www.formaxcredit.co.uk/client/formax/i/ifisa-hero.jpg")' }}>
+                    backgroundImage:"url(" + s2 + ")" }}>
                     <div className="slider-content">
                         <h1 className="slider-title">INNOVATIVE FINANCE ISA</h1>
                         <div className="slider-caption">
@@ -27,7 +31,7 @@ class HomeSlider extends Component {
                     </div>
                 </div>
                 <div style={{ height: '660px',backgroundPosition:'bottom',backgroundSize:'cover',
-                    backgroundImage:'url("https://www.formaxcredit.co.uk/client/formax/i/finance-hero.jpg")' }}>
+                    backgroundImage:"url(" + s3 + ")" }}>
                     <div className="slider-content">
                         <h1 className="slider-title">BUSINESS FINANCE</h1>
                         <div className="slider-caption">
@@ -37,7 +41,7 @@ class HomeSlider extends Component {
                     </div>
                 </div>
                 <div style={{ height: '660px',backgroundPosition:'bottom',backgroundSize:'cover',
-                    backgroundImage:'url("https://www.formaxcredit.co.uk/client/formax/i/mca-hero.jpg")' }}>
+                    backgroundImage:"url(" + s4 + ")" }}>
                     <div className="slider-content">
                         <h1 className="slider-title">MERCHANT CASH ADVANCE</h1>
                         <div className="slider-caption">

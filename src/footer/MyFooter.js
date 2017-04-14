@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './MyFooter.css';
 import { Row, Col,Button } from 'antd';
 import FA from 'react-fontawesome';
-
+import mylogo from '../../public/assets/img/logo-formax-subpage.svg';
 
 class MyFooter extends Component {
     render() {
@@ -10,7 +10,7 @@ class MyFooter extends Component {
             <div className='myfooter'>
                 <Row className='footerRow1'>
                     <Col xs={24} sm={8} md={8} xl={12} lg={12} className='footerLOGO'>
-                        <img src="https://www.formaxcredit.co.uk/client/formax/i/logo-formax-subpage.svg" alt="logo" />
+                        <img src={mylogo} alt="logo" />
                     </Col>
                     <Col xs={24} sm={8} md={8} xl={6} lg={6} className='footerMenu'>
                         <h3>MENU</h3>

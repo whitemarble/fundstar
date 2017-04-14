@@ -7,22 +7,24 @@ import HomeSlider from './content/HomeSlider';
 import MyFooter from './footer/MyFooter'
 import { Layout ,Affix} from 'antd';
 const { Header, Footer, Content } = Layout;
+import mylogo from '../public/assets/img/logo-formax-subpage.svg';
+import mylogolight from '../public/assets/img/logo-formax.svg';
 
 class App extends Component {
   state = {
     menuclass:'mainmenu',
-    logo:'https://www.formaxcredit.co.uk/client/formax/i/logo-formax.svg'
+    logo:mylogolight
   }
   affixscroll = (affixed)=>{
     if(affixed)
       this.setState({
           menuclass : 'mainmenu mainmenu-scroll',
-          logo:'https://www.formaxcredit.co.uk/client/formax/i/logo-formax-subpage.svg'
+          logo:mylogo
       });
     else
       this.setState({
           menuclass : 'mainmenu',
-          logo:'https://www.formaxcredit.co.uk/client/formax/i/logo-formax.svg'
+          logo:mylogolight
       });
   }
   render() {

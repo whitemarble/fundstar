@@ -4,6 +4,7 @@ import './MainMenu.css';
 import MobileMenu from './MobileMenu';
 import FA from 'react-fontawesome';
 
+
 class MainMenu extends Component {
     state = {
         current: '',
