@@ -42,25 +42,25 @@ class MainMenu extends Component {
                     mode="horizontal" className='desktopmenu'
                     style={{ lineHeight: '89px',borderBottom:'none',float:'right' }}>
                     <Menu.Item key="invest">
-                        Invest
+                        INVEST
                     </Menu.Item>
                     <Menu.Item key="ifisa">
                         IFISA
                     </Menu.Item>
                     <Menu.Item key="borrow">
-                        Borrow
+                        BORROW
                     </Menu.Item>
                     <Menu.Item key="mca">
                         MCA
                     </Menu.Item>
                     <Menu.Item key="learn">
-                        Learn More
+                        LEARN MORE
                     </Menu.Item>
                     <Menu.Item key="partners">
-                        Partners
+                        PARTNERS
                     </Menu.Item>
                     <Menu.Item key="about">
-                        About Us
+                        ABOUT US
                     </Menu.Item>
                     <Menu.Item key="b1">
                         <Button type="primary" ghost>LOG IN</Button>

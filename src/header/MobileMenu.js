@@ -8,13 +8,13 @@ class MobileMenu extends Component {
             <Menu
                 style={{ width: 240, float:'right' }}
                 mode="vertical" className={this.props.mobilemenuclass}>
-                <Menu.Item>Invest</Menu.Item>
+                <Menu.Item>INVEST</Menu.Item>
                 <Menu.Item>IFISA</Menu.Item>
-                <Menu.Item>Borrow</Menu.Item>
+                <Menu.Item>BORROW</Menu.Item>
                 <Menu.Item>MCA</Menu.Item>
-                <Menu.Item>Learn More</Menu.Item>
-                <Menu.Item>Partners</Menu.Item>
-                <Menu.Item>About Us</Menu.Item>
+                <Menu.Item>LEARN MORE</Menu.Item>
+                <Menu.Item>PARTNERS</Menu.Item>
+                <Menu.Item>ABOUT US</Menu.Item>
                 <Menu.Item>LOG IN</Menu.Item>
                 <Menu.Item>SIGN UP</Menu.Item>
             </Menu>

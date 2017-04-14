@@ -9,6 +9,7 @@ import { Layout ,Affix} from 'antd';
 const { Header, Footer, Content } = Layout;
 import mylogo from '../public/assets/img/logo-formax-subpage.svg';
 import mylogolight from '../public/assets/img/logo-formax.svg';
+import Banner from './content/Banner'
 
 class App extends Component {
   state = {
@@ -40,6 +41,7 @@ class App extends Component {
           <Content className="content">
             <HomeSlider />
             <PriceBox />
+            <Banner />
            
           </Content>
           <Footer className="footer">

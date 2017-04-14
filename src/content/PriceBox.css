@@ -1,0 +1,113 @@
+.pricebox{
+    background:#E8E8E8;
+    margin-top:-60px;
+    padding-bottom:60px
+}
+
+.priceitem{
+    text-align: center;
+    width:100%;
+    padding-left:8%;
+    padding-right:8%;
+}
+
+.priceitem img{
+    height:96px;
+    margin-top:26px
+}
+
+.priceitem h1{
+    font-size:2.25rem
+}
+
+.priceitem h2{
+    font-size:1.5rem;
+    margin-top:15px
+}
+
+.priceitem h3{
+    font-size:4rem;
+    margin-top:20px
+}
+
+.priceitem h3 sup{
+    font-size: 60%
+}
+
+.priceitem Button{
+    font-size:16px;
+    font-weight:800;
+    min-width:260px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:20px
+}
+
+.priceitem ul{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: left;
+    list-style-type:disc;
+    padding-left:20px;
+    min-height:186px;
+}
+
+.priceitem ul li{
+    font-size:16px;
+    color:#333;
+    margin-bottom:8px
+}
+
+.priceitem p{
+    font-size:13px
+}
+
+@media screen and (max-width: 1416px) {
+    .priceitem h1{
+        font-size:2rem
+    }
+
+    .priceitem h2{
+        font-size:1.2rem
+    }
+
+    .priceitem h3{
+        font-size:3.5rem
+    }
+
+}
+
+@media screen and (max-width: 1260px) {
+    .priceitem Button{
+        min-width:220px;
+        font-size:15px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .priceitem{
+        margin-bottom:40px;
+        padding-left:5%;
+        padding-right:5%;
+    }
+
+    .pricebox{
+        padding-bottom:20px
+    }
+
+    .priceitem h1{
+        font-size:1.8rem
+    }
+
+    .priceitem h2{
+        font-size:1.2rem
+    }
+
+    .priceitem h3{
+        font-size:3.2rem
+    }
+}
