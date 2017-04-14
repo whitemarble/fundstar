@@ -33,7 +33,7 @@ class App extends Component {
       <div className="App">
         <Layout className="layout">
           <Affix className="header" onChange={affixed => this.affixscroll(affixed)}>
-            <Header className="header">
+            <Header>
               <MainMenu menuclass={this.state.menuclass} logo={this.state.logo}/>
               
             </Header>

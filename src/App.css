@@ -12,6 +12,9 @@
   height:90px;
   z-index:99;
 }
+.ant-layout-header{
+  background:transparent !important;
+}
 
 .ant-affix{
   background:#fff;
@@ -48,17 +51,17 @@
 }
 
 .content{
-  background:transparent;
+  background:#fff !important;
   margin-top:-90px
 }
 
 .footer{
-  background:transparent
+  background:#fff !important
 }
 
 @media screen and (max-width: 768px) {
-    .header{
-      padding:0 3px
+    .ant-layout-header{
+      padding:0 3px !important
     }
 
 }

@@ -47,8 +47,7 @@
 
 .footerContact{
     border-left: 1px solid #ccc;
-    padding:20px 0px 20px 15px;
-    
+    padding:20px 0px 20px 15px !important;
 }
 
 .footerSocial{
@@ -99,7 +98,7 @@
 
     .footerContact{
         border-left: 0px;
-        padding:10px 0px 10px 0px;
+        padding:10px 0px 10px 0px !important;
         text-align: center;
     }
 

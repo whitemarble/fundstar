@@ -7,8 +7,8 @@
     margin-top:12px
 }
 
-.ant-menu-horizontal{
-    background:transparent;
+.desktopmenu{
+    background:transparent !important;
 }
 
 .desktopmenu .ant-menu-item{
@@ -32,15 +32,15 @@
 }
 
 .menubutton{
-    display:none
+    display:none !important
 }
 
 @media screen and (max-width: 1240px) {
     .desktopmenu .ant-menu-item{
-        display:none
+        display:none !important
     }
     .desktopmenu .menubutton{
-        display:block
+        display:block !important
     }
 }
 

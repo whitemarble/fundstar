@@ -21,7 +21,7 @@ class MainMenu extends Component {
             });
     }
     handleClick = (e) => {
-        console.log('click ', e);
+        //console.log('click ', e);
         if(e.key !== 'b1' && e.key !== 'b2' && e.key !== 'b3')
         {
             this.setState({
@@ -29,7 +29,7 @@ class MainMenu extends Component {
             });
         }
         
-    console.log(e.key);
+    //console.log(e.key);
     }
     render() {
         return (
