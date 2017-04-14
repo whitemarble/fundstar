@@ -65,7 +65,7 @@ class MyFooter extends Component {
                         <p>Copyright © Formax Credit UK Ltd. 2017. All rights reserved.</p>
                     </Col>
                     <Col xs={24} sm={12} md={12} xl={12} lg={12} className="poweredby">
-                        <p>Powered by<a href="http://nebulahub.com"> Nebulahub</a></p>
+                        <p>Powered by Nebulahub</p>
                     </Col>
                 </Row>
             </div>
