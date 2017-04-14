@@ -3,8 +3,6 @@ import { Menu,Button} from 'antd';
 import './MainMenu.css';
 import MobileMenu from './MobileMenu';
 import FA from 'react-fontawesome';
-const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
 
 class MainMenu extends Component {
     state = {
@@ -12,7 +10,7 @@ class MainMenu extends Component {
         mobilemenuclass: 'mobilemenu'
     }
     mmswitch = () =>{
-        if(this.state.mobilemenuclass == 'mobilemenu')
+        if(this.state.mobilemenuclass === 'mobilemenu')
             this.setState({
                 mobilemenuclass: 'mobilemenu display-block',
             });
@@ -23,7 +21,7 @@ class MainMenu extends Component {
     }
     handleClick = (e) => {
         console.log('click ', e);
-        if(e.key != 'b1' && e.key != 'b2' && e.key != 'b3')
+        if(e.key !== 'b1' && e.key !== 'b2' && e.key !== 'b3')
         {
             this.setState({
                 current: e.key,
@@ -36,7 +34,7 @@ class MainMenu extends Component {
         return (
             <div className={this.props.menuclass}>
                 <div className="logo">
-                    <img src={this.props.logo} />
+                    <img src={this.props.logo} alt='logo'/>
                 </div>
                 <Menu onClick={this.handleClick} 
                     selectedKeys={[this.state.current]} 

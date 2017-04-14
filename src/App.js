@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import '../public/assets/css/font-awesome.css'
 import MainMenu from './header/MainMenu';
-
+import PriceBox from './content/PriceBox'
 import HomeSlider from './content/HomeSlider';
+import MyFooter from './footer/MyFooter'
 import { Layout ,Affix} from 'antd';
 const { Header, Footer, Content } = Layout;
 
@@ -36,41 +37,12 @@ class App extends Component {
           </Affix>
           <Content className="content">
             <HomeSlider />
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            v
-            Content<br/>
-            Content<br/>
-            v
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            divv
-
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>
-            Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>Content<br/>
-
+            <PriceBox />
+           
           </Content>
-          <Footer className="footer">Footer</Footer>
+          <Footer className="footer">
+            <MyFooter />
+          </Footer>
         </Layout>
         
       </div>
