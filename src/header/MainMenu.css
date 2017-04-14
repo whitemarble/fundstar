@@ -13,7 +13,8 @@
 
 .desktopmenu .ant-menu-item{
   font-size:15px;
-  color:#fff
+  color:#fff;
+  padding:0px 15px
 }
 
 .desktopmenu .ant-menu-item button{
@@ -34,7 +35,7 @@
     display:none
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1240px) {
     .desktopmenu .ant-menu-item{
         display:none
     }
