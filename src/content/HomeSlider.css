@@ -1,14 +1,14 @@
 .ant-carousel .slick-dots{
-    bottom:90px !important
+    bottom:90px
 }
 
 .ant-carousel .slick-dots li button {
-    width:50px !important;
-    height:4px !important
+    width:50px;
+    height:4px
 }
 
 .ant-carousel .slick-dots li.slick-active button{
-    width:70px !important;
+    width:70px;
 }
 
 .slider-content{

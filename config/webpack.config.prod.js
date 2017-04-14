@@ -135,6 +135,8 @@ module.exports = {
       {
         test: /\.less$/,
         loader: 'style!css!postcss!less?{modifyVars:{"@primary-color":"#3A82C4"}}'
+          
+
       },
       // The notation here is somewhat confusing.
       // "postcss" loader applies autoprefixer to our CSS.
@@ -150,11 +152,12 @@ module.exports = {
       // in the main CSS file.
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract(
+        /*loader: ExtractTextPlugin.extract(
           'style',
           'css?importLoaders=1!postcss',
           extractTextPluginOptions
-        )
+        )*/
+        loader: 'style!css?importLoaders=1!postcss'
         // Note: this won't work without `new ExtractTextPlugin()` in `plugins`.
       },
       // JSON is not enabled by default in Webpack but both Node and Browserify
